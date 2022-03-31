@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(290deg, rgb(43, 255, 0), blue, red, blue);
+}
+.container{
+    max-width: 1200px;
+    margin:  0 auto;
+    margin-top: 30px;
+}
+#form{
+    text-align: center;
+}
+#todo-input{
+    box-shadow: 0px  0px 20px 10px rgb(11, 239, 255);
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(18, 151, 212);
+    outline: none;
+    width: 400px;
+    background: rgba(0, 0, 0, 0.575);
+    font-size: 30px;
+    color: #fff;
+}
+input::placeholder{
+    color: red;
+}
+.add{
+    padding: 15px 30px;
+    background-color: rgb(0, 247, 0);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px 0 30px 0;
+    margin-left: 50px;
+    border: 2px solid red;
+    box-shadow: 0px 0px 20px 10px rgb(216, 32, 124);
+}
+.todo-list{
+    position: relative;
+    top: 50px;
+    width: 50%;
+    margin: 0 auto;
+    min-height: 200px;
+    background-color: #999;
+    border-radius: 20px;
+    padding: 30px;
+}
+/* .item{
+   
+} */
+.btns{
+    padding: 5px 14px;
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid chartreuse;
+}
+.delete{
+    color: red;
+    padding: 5px 14px;
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid chartreuse;
+}
+.done{
+    color: green;
+    padding: 5px 14px;
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid chartreuse;
+}
+.todo-item{
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 10px;
+    list-style-type: none;
+    background-color: salmon;
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.fa-solid{
+    pointer-events: none;
+}
